@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Tajawal', sans-serif;
+    background: #f4f4f4;
+    color: #222;
+    text-align: center;
+    direction: rtl;
+}
+
+header {
+    background: #0066cc;
+    color: white;
+    padding: 2rem;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.product {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
